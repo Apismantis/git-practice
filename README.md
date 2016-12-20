@@ -9,6 +9,12 @@
 
 `git clone -b <branch_name> --single-branch git://<repo_url>`
 
+### Git pull
+
+- Pull a branch from remote server to a branch in local
+
+`git pull <remote> <r-branch>:<l-branch>`
+
 ### Undo commit
 
 - To change the last commit message use --amend
