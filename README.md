@@ -76,6 +76,20 @@ Commit the changes, reusing the old commit message. reset copied the old head to
 
 - Force delete branch `$git branch -D <-r> <branch_name>`
 
+### Git stash
+
+- Save all changes of the current branch `$ git stash`
+
+- Show the stashed change history `$ git stash list`
+
+- Show a change  `$ git stash show stash@{<index>}`
+
+- Apply a change `$ git stash apply stash@{<index>}`
+
+- Delete a change `$ git stash drop stash@{<index>}`
+
+- Delete all changes `$ git stash clear`
+
 ### Files
 - Remove a file  `$ git rm --cached <file_name>`
 
