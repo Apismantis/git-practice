@@ -44,6 +44,14 @@ Make corrections to working tree files.
 git add anything that you want to include in your new commit.
 Commit the changes, reusing the old commit message. reset copied the old head to .git/ORIG_HEAD; commit with -c ORIG_HEAD will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the -C option.
 
+- Delete a commit (1 - delete only the commit_id) `$ git revert <commit_id>`
+
+- Delete a commit (2 - Delete all newer commit than the commit_id) 
+    ```
+    $ git reset --hard <commit_id>
+    $ git push <remote_name> -f <branch_name>
+    ```
+
 ### Git push
 
 - To push single tag  `$ git push origin <tag_name>`
