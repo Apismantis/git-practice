@@ -1,4 +1,4 @@
-# Git Practice
+# Git Cheat Sheet
 <hr/>
 
 ### Clone
@@ -51,6 +51,8 @@ Commit the changes, reusing the old commit message. reset copied the old head to
     $ git reset --hard <commit_id>
     $ git push <remote_name> -f <branch_name>
     ```
+- Git reset commit to the same as remote branch
+    `$ git reset --hard origin/<remote_branch>`
 
 ### Git push
 
