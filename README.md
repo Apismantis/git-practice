@@ -6,7 +6,7 @@
 
 - Clone single branch  `git clone -b <branch_name> --single-branch git://<repo_url>`
 
-### Git pull
+### Pull
 
 - Pull a branch from remote server to a branch in local  `git pull <remote> <r-branch>:<l-branch>`
 
@@ -54,7 +54,7 @@ Commit the changes, reusing the old commit message. reset copied the old head to
 - Git reset commit to the same as remote branch
     `$ git reset --hard origin/<remote_branch>`
 
-### Git push
+### Push
 
 - To push single tag  `$ git push origin <tag_name>`
 
@@ -72,7 +72,7 @@ Commit the changes, reusing the old commit message. reset copied the old head to
 
 - Create new Branch `$ git branch <branch_name>`
 
-- Create branch from commit  `$ git branch branchname <sha1-of-commit>`
+- Create branch from commit  `$ git branch <branch_name> <sha1-of-commit>`
 
 - Switch branch  `$ git checkout <branch_name>`
 
@@ -84,7 +84,9 @@ Commit the changes, reusing the old commit message. reset copied the old head to
 
 - Delete remote branch `$ git push -d <branch_to_delete>`
 
-- Force delete branch `$git branch -D <-r> <branch_name>`
+- Force delete branch `$ git branch -D <-r> <branch_name>`
+
+- Clean outdated branch: `$ git remote prune <remote_name>`
 
 ### Git stash
 
