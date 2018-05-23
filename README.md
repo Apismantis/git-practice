@@ -108,6 +108,17 @@ Commit the changes, reusing the old commit message. reset copied the old head to
 - Remove a folder in repository without remove on local repository
 
     `$ git rm --cached -r <folder_name>`
+    
+### Tags
+- Add tag `$ git tag -a <tag_name> -m <Tag description at here>`
+
+- Add tag from a commit `$ git tag -a <tag_name> <commit_sha> -m <Tag description at here>`
+
+- Push all tags `$ git push --tags`
+
+- Push one tag `$ git push origin <tag_name>`
+
+- List all tags `$ git tag`
 
 <hr/>
 
